@@ -1,6 +1,7 @@
 import Button from "../common/Button";
 import "./styles/contactus.css";
 import { useState } from "react";
+import { Config } from "../../constants/Config";
 
 const ContactUs = () => {
   const tgLink = "https://t.me/CMC_COIN_1";
@@ -16,8 +17,11 @@ const ContactUs = () => {
 
   const [emailData, setEmailData] = useState(emailFormat);
 
+  const sendGridSendEmail = () => {};
+
   const handleSubmit = (event) => {
     event.preventDefault();
+    sendGridSendEmail();
     console.log(emailData);
   };
 
@@ -82,7 +86,11 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-        <div className="email-sec">
+        <div
+          className={
+            Config.enableSendGrid ? "email-sec" : "email-sec sendemail-disabled"
+          }
+        >
           <div className="form-container">
             <form onSubmit={handleSubmit} className="form-style">
               <input
@@ -117,6 +125,12 @@ const ContactUs = () => {
               </div>
             </form>
           </div>
+          {!Config.enableSendGrid && (
+            <div className="not-available-function">
+              We are working on enabling email support. Please visit our socials
+              links in the meantime.
+            </div>
+          )}
         </div>
       </div>
     </div>
