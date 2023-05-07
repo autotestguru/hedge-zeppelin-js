@@ -1,4 +1,3 @@
-import Navbar from "../navbar/Navbar";
 import "./screens.css";
 import "./styles/whatisthis.css";
 import { useState, useEffect } from "react";
@@ -55,7 +54,6 @@ const WhatIsThis = () => {
 
   useEffect(() => {
     Config.enableCoinGeckoAPI && fetchMarketData();
-    console.log(marketData);
   }, [Config.enableCoinGeckoAPI]);
 
   const formatter = new Intl.NumberFormat("en-US", {
@@ -71,6 +69,7 @@ const WhatIsThis = () => {
           <img
             src={require("./../../assets/images/airship.png")}
             style={{ width: "300px" }}
+            alt="Airship"
           />
         </div>
       </div>

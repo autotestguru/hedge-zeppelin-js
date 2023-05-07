@@ -47,6 +47,7 @@ const ContactUs = () => {
               <img
                 src={require("./../../assets/images/telegram.png")}
                 className="social-img"
+                alt="Telegram"
               />
               <h3 className="img-desc">{tgLink}</h3>
             </div>
@@ -57,6 +58,7 @@ const ContactUs = () => {
               <img
                 src={require("./../../assets/images/facebook.png")}
                 className="social-img"
+                alt="Facebook"
               />
               <h3 className="img-desc">{fbLink}</h3>
             </div>
@@ -68,6 +70,7 @@ const ContactUs = () => {
                 src={require("./../../assets/images/twitter.png")}
                 onClick={() => window.open(twLink, "_blank")}
                 className="social-img"
+                alt="Twitter"
               />
               <h3 className="img-desc">{twLink}</h3>
             </div>
@@ -81,6 +84,7 @@ const ContactUs = () => {
                   window.open("https://www.instagram.com/cmccoin.io/", "_blank")
                 }
                 className="social-img"
+                alt="Instagram"
               />
               <h3 className="img-desc">{instaLink}</h3>
             </div>

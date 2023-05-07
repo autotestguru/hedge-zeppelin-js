@@ -1,6 +1,4 @@
 import "./components.css";
-import { useSpring, animated } from "@react-spring/web";
-import { useState } from "react";
 
 const Button = ({ children, outlined = false }) => {
   return (

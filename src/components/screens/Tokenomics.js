@@ -35,6 +35,7 @@ const Tokenomics = () => {
             <img
               src={require("./../../assets/images/checkmark-icon.png")}
               style={{ width: "60px", height: "60px" }}
+              alt="Checkmark"
             />
             100 Million total supply
           </div>
@@ -51,6 +52,7 @@ const Tokenomics = () => {
             <img
               src={require("./../../assets/images/checkmark-icon.png")}
               style={{ width: "60px", height: "60px" }}
+              alt="Checkmark"
             />
             8% Buy/Transfer fees
           </div>
@@ -67,6 +69,7 @@ const Tokenomics = () => {
             <img
               src={require("./../../assets/images/checkmark-icon.png")}
               style={{ width: "60px", height: "60px" }}
+              alt="Checkmark"
             />
             12% Sell fees
           </div>
@@ -83,6 +86,7 @@ const Tokenomics = () => {
             <img
               src={require("./../../assets/images/checkmark-icon.png")}
               style={{ width: "60px", height: "60px" }}
+              alt="Checkmark"
             />
             50,000 HDZ Maximum sell per Hour
           </div>
@@ -94,6 +98,7 @@ const Tokenomics = () => {
             <img
               src={require("./../../assets/images/icons8-capital-96.png")}
               style={{ width: "180px", height: "120px", margin: "20px" }}
+              alt="Capital"
             />
             <span style={{ fontSize: "18px", fontWeight: "bold" }}>
               7.5% soft cap –<br /> 15% hard cap
@@ -109,6 +114,7 @@ const Tokenomics = () => {
             <img
               src={require("./../../assets/images/core-team.png")}
               style={{ width: "180px", height: "120px", margin: "20px" }}
+              alt="Core team"
             />
             <span style={{ fontSize: "18px", fontWeight: "bold" }}>
               18% founders’ tokens
@@ -122,6 +128,7 @@ const Tokenomics = () => {
             <img
               src={require("./../../assets/images/liquidity.png")}
               style={{ width: "180px", height: "120px", margin: "20px" }}
+              alt="Liquidity"
             />
             <span style={{ fontSize: "18px", fontWeight: "bold" }}>
               Liquidity pool
@@ -133,21 +140,6 @@ const Tokenomics = () => {
             <span style={{ fontSize: "12px" }}>HDZ / USDT</span>
           </div>
         </Card>
-        {/* <Card>
-          <div className="card-content">
-            <img
-              src={require("./../../assets/images/reward.png")}
-              style={{ width: "180px", height: "120px", margin: "20px" }}
-            />
-            <span style={{ fontSize: "18px", fontWeight: "bold" }}>
-              Reward for holders
-            </span>
-
-            <span style={{ fontSize: "12px" }}>
-              Accumulated on each buy/sell
-            </span>
-          </div>
-        </Card> */}
       </div>
     </div>
   );

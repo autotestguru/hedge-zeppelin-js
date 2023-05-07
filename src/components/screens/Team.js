@@ -13,7 +13,7 @@ const Team = () => {
               <img
                 src={require("./../../assets/images/ceo-img.png")}
                 className="team-img"
-                alt="CEO Image"
+                alt="CEO"
               />
               <div className="team-title">He leads</div>
               <div className="team-email">drew@hedgezeppelin.com</div>
@@ -31,7 +31,7 @@ const Team = () => {
               <img
                 src={require("./../../assets/images/coo-img.png")}
                 className="team-img"
-                alt="COO Image"
+                alt="COO"
               />
               <div className="team-title">Second in command</div>
               <div className="team-email">george@hedgezeppelin.com</div>
@@ -49,7 +49,7 @@ const Team = () => {
               <img
                 src={require("./../../assets/images/cfo-img.png")}
                 className="team-img"
-                alt="CFO Image"
+                alt="CFO"
               />
               <div className="team-title">Knows finance</div>
               <div className="team-email">john@hedgezeppelin.com</div>
@@ -67,7 +67,7 @@ const Team = () => {
               <img
                 src={require("./../../assets/images/cto-img.png")}
                 className="team-img"
-                alt="CTO Image"
+                alt="CTO"
               />
               <div className="team-title">Oversee technology</div>
               <div className="team-email">guru@hedgezeppelin.com</div>
@@ -88,7 +88,7 @@ const Team = () => {
               <img
                 src={require("./../../assets/images/market2.png")}
                 className="team-img"
-                alt="CEO Image"
+                alt="CEO"
               />
               <div className="team-title">Marketing Wizard</div>
               <div className="team-email">nathan@hedgezeppelin.com</div>
@@ -106,7 +106,7 @@ const Team = () => {
               <img
                 src={require("./../../assets/images/market1.png")}
                 className="team-img"
-                alt="CEO Image"
+                alt="CEO"
               />
               <div className="team-title">Digital Druid</div>
               <div className="team-email">colin@hedgezeppelin.com</div>

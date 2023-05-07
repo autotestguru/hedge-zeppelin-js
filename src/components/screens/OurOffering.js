@@ -1,7 +1,6 @@
 import Card from "../common/card/Card";
 import "./screens.css";
 import "./styles/offering.css";
-import { MdAttachMoney } from "react-icons/md";
 
 const OurOffering = () => {
   return (
@@ -25,6 +24,7 @@ const OurOffering = () => {
                     <img
                       src={require("./../../assets/images/investment-bullet.png")}
                       className="bullet"
+                      alt="Investment bullet"
                     />
                     <div>
                       Acquiring stake in early key projects with huge growing
@@ -35,6 +35,7 @@ const OurOffering = () => {
                     <img
                       src={require("./../../assets/images/investment-bullet.png")}
                       className="bullet"
+                      alt="Investment bullet"
                     />
                     <div>
                       Diversified portfolios in revenue generating assets across
@@ -56,6 +57,7 @@ const OurOffering = () => {
                     <img
                       src={require("./../../assets/images/investment-bullet.png")}
                       className="bullet"
+                      alt="Investment bullet"
                     />
                     <div>
                       Partnership with "Cryptazon" initiative, ensuring rewards
@@ -66,6 +68,7 @@ const OurOffering = () => {
                     <img
                       src={require("./../../assets/images/investment-bullet.png")}
                       className="bullet"
+                      alt="Investment bullet"
                     />
                     <div>
                       Prime spot in Cryptomag and other marketing avenues,
@@ -89,6 +92,7 @@ const OurOffering = () => {
                     <img
                       src={require("./../../assets/images/investment-bullet.png")}
                       className="bullet"
+                      alt="Investment bullet"
                     />
                     <div>
                       Part of fees reinvested into assets to further bolster
@@ -100,6 +104,7 @@ const OurOffering = () => {
                     <img
                       src={require("./../../assets/images/investment-bullet.png")}
                       className="bullet"
+                      alt="Investment bullet"
                     />
                     <div>
                       Fund further utilities and development initiatives.

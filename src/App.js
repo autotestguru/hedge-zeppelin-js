@@ -8,8 +8,6 @@ import Tokenomics from "./components/screens/Tokenomics";
 import WhatIsThis from "./components/screens/WhatIsThis";
 
 function App() {
-  console.log(window.innerWidth + "---" + window.innerHeight);
-
   return (
     <div className="App">
       <div className="nav-container">
