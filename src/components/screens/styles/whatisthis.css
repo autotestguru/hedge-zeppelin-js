@@ -31,17 +31,6 @@
   animation: mymove 10s infinite ease-in-out;
 }
 
-.back-img {
-  background-image: url('./../../../assets/images/cloudysky.jpg');
-  width: 100%;
-  height: 420px;
-
-  position: absolute;
-  flex-direction: row;
-  top: 0px; 
-  bottom: 0px;
-}
-
 .title-text {
   margin: 0px;
   margin-top: 50px;
@@ -147,10 +136,6 @@
     margin-left:15px;
   }
 
-  .back-img {
-    height: 860px;
-  }
-
   .moving-image {
     animation: mymove500 10s infinite ease-in-out;
   }
@@ -186,10 +171,6 @@
     font-size: 15px;
     text-align: left;
     margin-left:15px;
-  }
-
-  .back-img {
-    height: 860px;
   }
 
   .moving-image {
