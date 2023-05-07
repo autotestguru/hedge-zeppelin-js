@@ -1,0 +1,97 @@
+.button-container {
+  color: #ffffff;
+  background-image: linear-gradient(to right, #6004bc, #10044a);
+  border: solid 1px white;
+  padding: 10px 20px;
+  transition: background-color 250ms;
+  border-radius: 24px;
+  font-family: 'Roboto Mono', monospace;
+  cursor: pointer;
+}
+
+.main-button {
+  position: relative;
+}
+
+button {
+  font: inherit;
+  padding: 0.75em 3em;
+  /* background: hsl(185, 53%, 15%); */
+  background: #5604a9;
+  color: #fff;
+  border: 0.1em solid hsl(185, 53%, 34%);
+  border-radius: 100vw;
+  cursor: pointer;
+  transition: background-color 250ms;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.outlined {
+  background: transparent;
+}
+
+button:hover,
+button:focus-visible {
+  /* background: hsl(185, 53%, 34%); */
+  background: #600259;
+}
+
+button > span {
+  background: transparent;
+  position: absolute;
+  width: 33.33%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+button > :first-child {
+  left: 0;
+  top: 0;
+}
+
+button > :last-child {
+  right: 0;
+  top: 0;
+}
+
+button::before {
+  content: '';
+  position: absolute;
+  /* background: hsl(200 60% 20% / 0.75); */
+  background: #a00495;
+  width: 10%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  inset: 0;
+  margin: auto;
+  z-index: -1;
+  transition: transform 1000ms 200ms, opacity 200ms;
+  opacity: 0;
+}
+
+button:active::before {
+  transform: scale(20);
+  opacity: 1;
+  transition: transform 1000ms, opacity 500ms;
+}
+
+button:has(:first-child:active)::before {
+  margin-left: 0;
+} 
+
+button:has(:last-child:active)::before {
+  margin-right: 0;
+} 
+
+button:has(:first-child:active)::before,
+button:has(:last-child:active)::before {
+  transition: transform 500ms, opacity 250ms;
+}
+
+
+.outlined {
+background-image: linear-gradient(to right, transparent, transparent);;
+}

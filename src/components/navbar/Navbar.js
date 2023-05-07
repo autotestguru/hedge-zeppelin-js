@@ -1,0 +1,74 @@
+import "./navbar.css";
+import BannerLogo from "./../../assets/images/PNGlogosymbol01.png";
+import Button from "../common/Button";
+import { Spin as Hamburger } from "hamburger-react";
+import { useState } from "react";
+import MenuList from "../menu/MenuList";
+
+const Navbar = () => {
+  const [expanded, setExpanded] = useState(false);
+
+  const onMenuPress = () => {
+    setExpanded(!expanded);
+  };
+
+  let listMenuItems = [
+    { id: "whatisthis", name: "What is this" },
+    { id: "tokenomics", name: "Tokenomics" },
+    { id: "offering", name: "Our offering" },
+    { id: "team", name: "Our Team" },
+    { id: "next", name: "What's happening" },
+    { id: "contact-us", name: "Contact Us" },
+  ];
+
+  const menuClickHandler = (locator) => {
+    const section = document.querySelector("#" + locator);
+    section.scrollIntoView({ behavior: "smooth", block: "start" });
+    setExpanded(false);
+  };
+
+  return (
+    <>
+      <div
+        className="navbar-container"
+        onClick={() => {
+          expanded && setExpanded(!expanded);
+        }}
+      >
+        <div className="banner-logo">
+          <img
+            src={BannerLogo}
+            style={{ width: "100px", height: "20%" }}
+            alt="Banner"
+          />
+        </div>
+        <div className="nav-links">
+          <ul>
+            {listMenuItems.map((item) => (
+              <li key={item.id} onClick={() => menuClickHandler(item.id)}>
+                {item.name}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="nav-buttons">
+          <Button outlined={true}>Buy HDZ</Button>
+        </div>
+        <div className="menu-button">
+          <Hamburger
+            color="#ffffff"
+            toggled={expanded}
+            onToggle={onMenuPress}
+          />
+        </div>
+      </div>
+      <MenuList
+        show={expanded}
+        listMeniItems={listMenuItems}
+        onClick={menuClickHandler}
+      />
+    </>
+  );
+};
+
+export default Navbar;

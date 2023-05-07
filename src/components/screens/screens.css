@@ -1,0 +1,31 @@
+.our-deal{
+  width: 100%;
+  height: 400px;
+}
+
+.tok-title {
+  margin-top: 80px;
+  font-size: 34px;
+  font-weight: 900;
+  width: 100%;
+  text-align: center;
+}
+
+.tok-sub-title {
+  margin: 30px 30px;
+}
+
+@media only screen and (max-width: 500px) {
+  .whatisthis {
+    flex-direction: column;
+    text-align: center;
+  }
+  .left-side {
+    margin-left: 0px;
+  }
+
+  .tok-sub-title {
+    margin: 30px 10px;
+    text-align: center;
+  }
+}

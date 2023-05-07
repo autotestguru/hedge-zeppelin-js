@@ -1,0 +1,155 @@
+.offering-container {
+  display: flex;
+  color: #ffffff;
+  flex-direction: column;
+  /* background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.3)),url('./../../../assets/images/offering.jpg'); */
+  background-image: var(--background-gradient),url('./../../../assets/images/offering.jpg');
+  padding: 0px 10px 0px 10px;
+  height: fit-content;
+  background-size: cover;
+  
+}
+
+.multi-stream {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 80px;
+  column-gap: 80px;
+  margin-left: 10px;
+}
+
+.card-investment {
+  min-width: 300px;
+  padding-bottom: 30px;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.stream-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 340px;
+  font-size: 14px;
+  padding: 16px 0px;
+  gap: 10px;
+  height: 130px;
+}
+
+.stream-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-stretch {
+  display: flex;
+  /* width: fit-content; */
+}
+
+.card-con {
+  position: absolute;
+  width: fit-content;
+  /* width: 350px; */
+}
+
+.stream-container {
+  margin: 10px 20px;
+}
+
+.stream-title {
+  position: relative;
+  top: -20px;
+  left: 10px;
+  font-size: 30px;
+  background-color: rgb(174, 166, 166);
+  color: black;
+  border-radius: 24px;
+  padding-left: 10px;
+  margin: 0px;
+  width: 210px;
+}
+
+.bullet {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.dividend {
+  margin-top: 130px;
+}
+
+.formula-container {
+  margin: 10px 40px;
+}
+
+.formula {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* @media only screen and (max-width: 400px) {
+
+  .card-con {
+    max-width: 310px;
+  }
+} */
+
+/* @media only screen and (max-width: 500px) {
+
+  .multi-stream {
+    flex-direction: column;
+    gap: 140px;
+  }
+
+  .card-investment {
+    margin-left: 0px;
+  }
+
+  .form-container {
+    margin: 0px 20px;
+  }
+
+  .formula { 
+    padding: 10px;
+  }
+} */
+
+/* @media only screen and (max-width: 900px) {
+
+  .form-container {
+    margin: 0px 20px;
+  }
+
+  .formula { 
+    padding: 10px;
+  }
+
+  .multi-stream {
+    gap: 80px;
+  }
+} */
+
+/* @media only screen and (max-width: 1200px) {
+
+  .card-investment {
+    margin-left: 0px;
+  }
+
+  .form-container {
+    margin: 0px 20px;
+  }
+
+  .formula { 
+    padding: 10px;
+  }
+
+  .multi-stream {
+    gap: 80px;
+  }
+} */
+

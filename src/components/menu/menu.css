@@ -1,0 +1,40 @@
+.menu-list {
+  display: none;
+  flex-direction: column;
+  animation: fadeIn 0.2s ease-in-out;
+  padding-bottom: 8px;
+  z-index: 1000;
+  position: fixed;
+  width: 100%;
+  background-color: #290443;
+  text-align: center;
+
+}
+
+.show {
+  display: flex;
+  opacity: 1;
+}
+
+.menu-item {
+  color: #ffffff;
+  background-color: #290443;
+  padding: 8px;
+}
+
+.menu-item:hover {
+  color: #ffffff;
+  background-color: #583b6e;
+  padding-top: 8px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

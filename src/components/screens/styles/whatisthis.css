@@ -1,0 +1,198 @@
+.whatisthis {
+  margin-top: 0px;
+  display: flex;
+  /* flex-flow: row wrap; */
+  justify-content: space-between;
+  position: relative;
+  margin: 0px 10px 0px 10px;
+  padding-bottom: 80px;
+}
+
+.right-side {
+  margin-top: 50px;
+  position: relative;
+  color: #ffffff;
+  font-size:xx-large;
+  line-height: 40px;
+  flex-grow: 2;
+  margin-left: 80px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.left-side {
+  margin-left: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.moving-image {
+  position: relative;
+  animation: mymove 10s infinite ease-in-out;
+}
+
+.back-img {
+  background-image: url('./../../../assets/images/cloudysky.jpg');
+  width: 100%;
+  height: 420px;
+
+  position: absolute;
+  flex-direction: row;
+  top: 0px; 
+  bottom: 0px;
+}
+
+.title-text {
+  margin: 0px;
+  margin-top: 50px;
+}
+
+.sub-title-text {
+  margin-top: 30px;
+  font-size: 30px;
+  line-height: 20px;
+}
+
+.sub-text {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.market-data-container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 40px;
+  text-align: center;
+  font-size: 16px;
+  flex-direction: column;
+}
+
+.market-data-title {
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+}
+
+.mak-data-unit {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.madata-header {
+  border: 1px solid #fff;
+  flex-grow: 1;
+  font-weight: 900;
+  width: 350px;
+}
+
+.madata-data {
+  border: 1px solid #fff;
+  flex-grow: 1;
+  font-weight: inherit;
+  width: 350px;
+}
+
+.market-data-disc {
+  font-size: 12px;
+  text-align: left;
+  line-height:12px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  overflow-wrap: break-word;
+  width: fit-content;
+}
+
+@keyframes mymove {
+  0%   {top: 0px;}
+  50%  {top: 100px;}
+  100% {top: 0px;}
+}
+
+@keyframes mymove500 {
+  0%   {top: 0px;}
+  50%  {top: 50px;}
+  100% {top: 0px;}
+}
+
+@media only screen and (max-width: 500px) {
+  /* .whatisthis {
+    flex-direction: column;
+    text-align: center;
+  } */
+  .left-side {
+    margin-left: 0px;
+  }
+
+  .right-side {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .title-text {
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+  .sub-title-text {
+        font-size: 28px;
+    font-weight: 600;
+  }
+
+  .sub-text {
+    font-size: 15px;
+    text-align: left;
+    margin-left:15px;
+  }
+
+  .back-img {
+    height: 860px;
+  }
+
+  .moving-image {
+    animation: mymove500 10s infinite ease-in-out;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  /* .whatisthis {
+    flex-direction: column;
+    text-align: center;
+    height: 200vh;
+  } */
+
+  .left-side {
+    margin-left: 0px;
+  }
+
+  .right-side {
+    margin-left: 0px;
+        margin-top: 0px;
+  }
+
+  .title-text {
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+  .sub-title-text {
+        font-size: 28px;
+    font-weight: 600;
+  }
+
+  .sub-text {
+    font-size: 15px;
+    text-align: left;
+    margin-left:15px;
+  }
+
+  .back-img {
+    height: 860px;
+  }
+
+  .moving-image {
+    animation: mymove500 10s infinite ease-in-out;
+  }
+}
