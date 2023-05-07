@@ -54,7 +54,7 @@ const WhatIsThis = () => {
 
   useEffect(() => {
     Config.enableCoinGeckoAPI && fetchMarketData();
-  }, [Config.enableCoinGeckoAPI]);
+  }, []);
 
   const formatter = new Intl.NumberFormat("en-US", {
     style: "currency",

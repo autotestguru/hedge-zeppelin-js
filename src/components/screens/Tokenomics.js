@@ -2,16 +2,6 @@ import Card from "../common/card/Card";
 import "./styles/tokenomics.css";
 
 const Tokenomics = () => {
-  const data = [
-    ["Public listing", "40%"],
-    ["Private sale", "15%"],
-    ["Investment wallet", "15%"],
-    ["Locked tokens", "10%"],
-    ["Liquidity pool", "10%"],
-    ["Marketing budget", "5%"],
-    ["Core team", "5%"],
-  ];
-
   return (
     <div className="tokenomics-container" id="tokenomics">
       <div className="tok-title">Tokenomics</div>
