@@ -1,0 +1,12 @@
+.roadmap-site-container {
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  padding: 150px 0px;
+  padding: 0px 10px 0px 10px;
+  padding-bottom: 50px;
+  background-size: contain;
+  flex-direction: column;
+  background-image: var(--background-gradient),url('./../../../assets/images/roadmap-bg1.jpg');
+  background-size: contain;
+}

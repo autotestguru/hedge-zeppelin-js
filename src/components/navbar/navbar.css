@@ -45,9 +45,9 @@ li {
   margin: 0; /* Remove margins */
   display: inline;
   justify-content: space-between;
-  margin-right: 10px;
+  margin-right: 6px;
   border: solid 1px transparent;
-  padding: 10px;
+  padding: 6px;
   transition: border 0.2s;
 }
 

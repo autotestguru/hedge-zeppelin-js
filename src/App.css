@@ -24,6 +24,13 @@
   color: #61dafb;
 }
 
+.buy-now-fixed-right {
+  position: fixed;
+  z-index: 1000;
+  right: 10px;
+  bottom: 20px;
+}
+
 /* @media only screen and (min-width: 400px) {
   .nav-container {
     height: 120vh;

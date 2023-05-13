@@ -16,6 +16,7 @@ const Navbar = () => {
     { id: "whatisthis", name: "What is this" },
     { id: "tokenomics", name: "Tokenomics" },
     { id: "offering", name: "Our offering" },
+    { id: "roadmap", name: "Roadmap" },
     { id: "team", name: "Our Team" },
     { id: "next", name: "What's happening" },
     { id: "contact-us", name: "Contact Us" },

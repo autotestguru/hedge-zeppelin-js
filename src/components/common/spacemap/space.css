@@ -1,0 +1,180 @@
+.space-wrapper {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  overflow: scroll;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.space-section-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+}
+
+.rocket-container {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.center-rocket {
+  justify-content: center;
+}
+
+.moving-space-image {
+  position: relative;
+  animation: flyRocket 1.5s infinite ease-in-out;
+  transform: rotate(90deg);
+  visibility: hidden;
+}
+
+@keyframes flyRocket {
+  0%   {top: 0px;}
+  50%  {top: 10px;}
+  100% {top: 0px;}
+}
+
+.bar-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.bar {
+  border-top: 2px solid #fff;
+  position: relative;
+  width: 50%;
+}
+
+.bar-done {
+  border-width: 4px;
+  border-color: goldenrod;
+}
+
+.dot-start {
+  border-radius: 50%;
+	background-color: rgb(255, 255, 255);
+  width: 10px;
+  height:10px;
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: -4px;
+}
+
+.dot-done {
+  display: flex;
+  content: '';
+  width: 20px;
+  height:20px;
+  top: -8px;
+  background-image: url('./../../../assets/images/PNGlogosymbol01.png');
+  background-color: goldenrod;
+}
+
+.sec-title {
+  text-align: center;
+  font-size: 20px;
+}
+
+.active-rocket {
+  visibility: unset;
+}
+
+.section-data-container {
+  border-right: 0.5px solid rgba(255, 255, 255, 0.6);
+}
+
+.sec-sub-section {
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  .space-wrapper {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .space-section-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .rocket-container {
+    display: flex;
+    align-items: flex-end;
+    height: auto;
+    margin-right: 15px;
+  }
+
+  .center-rocket {
+    align-items : center;
+  }
+  
+  .moving-space-image {
+    position: relative;
+    animation: flyRocket 1.5s infinite ease-in-out;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+    transform: rotate(0deg);
+  }
+  
+  .bar-container {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+  }
+  
+  .bar {
+    border-left: 2px solid #fff;
+    position: relative;
+    height: 50%;
+  }
+
+  .bar-done {
+    border-width: 4px;
+    border-color: goldenrod;
+  }
+  
+  .dot-start {
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    width: 10px;
+    height:10px;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: -4px;
+  }
+  
+  .dot-done {
+    width: 20px;
+    height:20px;
+    left: -8px;
+    background-color: goldenrod;
+  }
+  
+  .section-data-container {
+    /* margin: 0px 40px; */
+    border-right-width: 0px;
+    border-top: 0.5px solid rgba(255, 255, 255, 0.6);
+  }
+
+  .sec-sub-section {
+    margin-left: 30px;
+  }
+
+  .active-rocket {
+    visibility: unset;
+  }
+  
+}
