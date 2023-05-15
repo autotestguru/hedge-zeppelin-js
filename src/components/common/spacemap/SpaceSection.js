@@ -27,20 +27,8 @@ const SpaceSection = ({ title, status, phases }) => {
           className={`bar ${
             status === "DONE" || isInProgress ? "bar-done" : ""
           }`}
-        >
-          {/* <span
-            className={`dot-start ${
-              status === "DONE" || isInProgress ? "dot-done" : ""
-            }`}
-          /> */}
-        </div>
-        <div className={`bar ${status === "DONE" ? "bar-done" : ""}`}>
-          {/* <span
-            className={`dot-start ${
-              status === "DONE" || isInProgress ? "dot-done" : ""
-            }`}
-          /> */}
-        </div>
+        ></div>
+        <div className={`bar ${status === "DONE" ? "bar-done" : ""}`}></div>
         <span
           className={`dot-start ${
             status === "DONE" || isInProgress ? "dot-done" : ""
