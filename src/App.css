@@ -26,7 +26,7 @@
 
 .buy-now-fixed-right {
   position: fixed;
-  z-index: 1000;
+  z-index: 100;
   right: 10px;
   bottom: 20px;
 }

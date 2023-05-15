@@ -1,5 +1,5 @@
 import "./navbar.css";
-import BannerLogo from "./../../assets/images/PNGlogosymbol01.png";
+import BannerLogo from "./../../assets/images/hedgie_nobg.png";
 import Button from "../common/Button";
 import { Spin as Hamburger } from "hamburger-react";
 import { useState } from "react";
@@ -39,7 +39,7 @@ const Navbar = () => {
         <div className="banner-logo">
           <img
             src={BannerLogo}
-            style={{ width: "100px", height: "20%" }}
+            style={{ width: "80px", height: "20%" }}
             alt="Banner"
           />
         </div>

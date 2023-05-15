@@ -1,4 +1,5 @@
 import "./space.css";
+import { BsBookmarkCheckFill } from "react-icons/bs";
 
 const SpaceSection = ({ title, status, phases }) => {
   const isInProgress = phases.some((items) => items.status === "IN PROGRESS");
@@ -55,7 +56,13 @@ const SpaceSection = ({ title, status, phases }) => {
             style={{ color: item.status === "DONE" ? "goldenrod" : "" }}
           >
             <h2 className="sub-sec-title">Phase # {item.id}</h2>
-            <p>{item.text}</p>
+            {item.text.split("\n").map((itm) => (
+              <p>
+                <BsBookmarkCheckFill style={{ marginRight: "5px" }} />
+                {itm}
+              </p>
+            ))}
+            {/* <p>{item.text}</p> */}
           </div>
         ))}
       </div>

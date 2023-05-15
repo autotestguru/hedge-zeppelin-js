@@ -5,70 +5,81 @@ import "./styles/roadmap.css";
 const Roadmap = () => {
   const roadmapItems = [
     {
-      title: "1st Jun - 31st Aug",
-      status: "DONE",
+      title: "Mar 2023 - May 2023",
+      status: "IN PROGRESS",
       phases: [
         {
           id: 1.1,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed id placeat exercitationem illo nemo corrupti quod pariatur? In, eaque. Veritatis qui deserunt recusandae alias, omnis id vel voluptate error ipsam.",
+          text: "Community Based Meme Concept - Hedge Zeppelin Created\nBuild Core Team & Advisors\nHedgie is Born 🦔",
           status: "DONE",
         },
         {
           id: 1.2,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed id placeat exercitationem illo nemo corrupti quod pariatur? In, eaque. Veritatis qui deserunt recusandae alias, omnis id vel voluptate error ipsam.",
+          text: "Contract with Crypto Marketing Company to handle marketing\nBuild & Publish Website",
           status: "DONE",
+        },
+        {
+          id: 1.3,
+          text: `Develop Contract\nConduct Initial Audit`,
+          status: "IN PROGRESS",
         },
       ],
     },
     {
-      title: "1st Sep - 31st Nov",
-      status: "IN PROGRESS",
+      title: "Jun 2023 - Aug 2023",
+      status: "NOT STARTED",
       phases: [
         {
           id: 2.1,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed id placeat exercitationem illo nemo corrupti quod pariatur? In, eaque. Veritatis qui deserunt recusandae alias, omnis id vel voluptate error ipsam.",
-          status: "DONE",
+          text: "Release Official Press Documents\nBuild Socials & Community",
+          status: "NOT STARTED",
         },
         {
           id: 2.2,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed id placeat exercitationem illo nemo corrupti quod pariatur? In, eaque. Veritatis qui deserunt recusandae alias, omnis id vel voluptate error ipsam.",
-          status: "IN PROGRESS",
+          text: "Presale on Pinksale and/or other platforms\nWhitelist Distribution\nMajor Marketing Campaign",
+          status: "NOT STARTED",
         },
         {
           id: 2.3,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed id placeat exercitationem illo nemo corrupti quod pariatur? In, eaque. Veritatis qui deserunt recusandae alias, omnis id vel voluptate error ipsam.",
+          text: "Multi-Chain Launch\nDEX Listings\nCMC & CG Listing",
           status: "NOT STARTED",
         },
       ],
     },
     {
-      title: "1st Dec - 28th Feb",
+      title: "Sep 2023 - Feb 2024",
       status: "NOT STARTED",
       phases: [
         {
           id: 3.1,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed id placeat exercitationem illo nemo corrupti quod pariatur? In, eaque. Veritatis qui deserunt recusandae alias, omnis id vel voluptate error ipsam.",
+          text: "Featured in Crypto Magazine\nMassive marketing campaign\nCollaboration with media celebs and reputed influencers",
           status: "NOT STARTED",
         },
         {
           id: 3.2,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed id placeat exercitationem illo nemo corrupti quod pariatur? In, eaque. Veritatis qui deserunt recusandae alias, omnis id vel voluptate error ipsam.",
+          text: "Certik Audit\nMajor CEX Listing",
+          status: "NOT STARTED",
+        },
+        ,
+        {
+          id: 3.3,
+          text: "E-commerce Usecase\nCollaboration with Investment Partners\nNFT Project Release",
           status: "NOT STARTED",
         },
       ],
     },
     {
-      title: "1st Mar - 30th May",
+      title: "Mar 2024 and beyond",
       status: "NOT STARTED",
       phases: [
         {
           id: 4.1,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed id placeat exercitationem illo nemo corrupti quod pariatur? In, eaque. Veritatis qui deserunt recusandae alias, omnis id vel voluptate error ipsam.",
+          text: "Additional CEX Listings",
           status: "NOT STARTED",
         },
         {
           id: 4.2,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed id placeat exercitationem illo nemo corrupti quod pariatur? In, eaque. Veritatis qui deserunt recusandae alias, omnis id vel voluptate error ipsam.",
+          text: "Cutting Edge Utilities\nInvestments for the future",
           status: "NOT STARTED",
         },
       ],

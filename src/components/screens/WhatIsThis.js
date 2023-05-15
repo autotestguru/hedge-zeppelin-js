@@ -65,11 +65,18 @@ const WhatIsThis = () => {
   return (
     <div className="whatisthis" id="whatisthis">
       <div className="left-side">
-        <div className="moving-image">
+        {/* <div className="moving-image">
           <img
             src={require("./../../assets/images/airship.png")}
             style={{ width: "300px" }}
             alt="Airship"
+          />
+        </div> */}
+        <div className="moving-image">
+          <img
+            src={require("./../../assets/images/hedgie_nobg.png")}
+            style={{ width: "300px", height: "500px" }}
+            alt="Hedgie"
           />
         </div>
       </div>

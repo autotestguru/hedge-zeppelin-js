@@ -13,10 +13,11 @@
 .banner-logo {
   display: flex;
   z-index: 999;
-  animation: logo-rotate 10s infinite linear;
+  cursor: pointer;
+  /* animation: logo-rotate 10s infinite linear; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .banner-logo {
     animation: logo-rotate infinite 20s linear;
   }
@@ -29,7 +30,7 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 .nav-links {
   flex-direction: row;
