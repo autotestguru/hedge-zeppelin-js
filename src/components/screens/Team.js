@@ -12,7 +12,7 @@ const Team = () => {
           <Card>
             <div className="team-card">
               <img
-                src={require("./../../assets/images/ceo-img.png")}
+                src={require("./../../assets/images/drew-bio-pic.jpeg")}
                 className="team-img"
                 alt="CEO"
               />
@@ -32,7 +32,7 @@ const Team = () => {
           <Card>
             <div className="team-card">
               <img
-                src={require("./../../assets/images/coo-img.png")}
+                src={require("./../../assets/images/george-bio-pic.jpeg")}
                 className="team-img"
                 alt="COO"
               />
@@ -50,7 +50,7 @@ const Team = () => {
           <Card>
             <div className="team-card">
               <img
-                src={require("./../../assets/images/cfo-img.png")}
+                src={require("./../../assets/images/john-bio-pic.jpeg")}
                 className="team-img"
                 alt="CFO"
               />
@@ -68,7 +68,7 @@ const Team = () => {
           <Card>
             <div className="team-card">
               <img
-                src={require("./../../assets/images/cto-img.png")}
+                src={require("./../../assets/images/guru-bio-pic.jpeg")}
                 className="team-img"
                 alt="CTO"
               />
@@ -91,7 +91,7 @@ const Team = () => {
           <Card>
             <div className="team-card market-card">
               <img
-                src={require("./../../assets/images/market2.png")}
+                src={require("./../../assets/images/nathan-bio-pic.jpeg")}
                 className="team-img"
                 alt="CEO"
               />
@@ -109,7 +109,7 @@ const Team = () => {
           <Card>
             <div className="team-card market-card">
               <img
-                src={require("./../../assets/images/market1.png")}
+                src={require("./../../assets/images/colin-bio-pic.jpeg")}
                 className="team-img"
                 alt="CEO"
               />
@@ -127,7 +127,7 @@ const Team = () => {
           <Card>
             <div className="team-card market-card">
               <img
-                src={require("./../../assets/images/securityofficer.png")}
+                src={require("./../../assets/images/greg-bio-pic.jpeg")}
                 className="team-img"
                 alt="CEO"
               />
