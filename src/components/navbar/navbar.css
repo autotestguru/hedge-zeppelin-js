@@ -14,23 +14,7 @@
   display: flex;
   z-index: 999;
   cursor: pointer;
-  /* animation: logo-rotate 10s infinite linear; */
 }
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .banner-logo {
-    animation: logo-rotate infinite 20s linear;
-  }
-}
-
-@keyframes logo-rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
 
 .nav-links {
   flex-direction: row;
@@ -69,21 +53,6 @@ li:hover {
 .menu-button {
   display: none;
 }
-
-
-/* @media only screen and (max-width: 500px) {
-  .navbar-container {
-    min-height: 12vmin;
-  }
-
-  .menu-button {
-    display: flex;
-  }
-
-  .nav-links {
-    display: none;
-  }
-} */
 
 @media only screen and (max-width: 900px) {
   .navbar-container {

@@ -1,7 +1,6 @@
 .whatisthis {
   margin-top: 0px;
   display: flex;
-  /* flex-flow: row wrap; */
   justify-content: space-between;
   position: relative;
   margin: 0px 10px 0px 10px;
@@ -30,6 +29,13 @@
   position: relative;
   animation: mymove 4s infinite ease-in-out;
   background-color: transparent;
+  z-index: 1;
+}
+
+.banner-image {
+  width: 300px;
+  height: 500px;
+  z-index: 1;
 }
 
 .title-text {
@@ -51,7 +57,6 @@
 .market-data-container {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   margin-top: 40px;
   text-align: center;
   font-size: 16px;
@@ -95,29 +100,13 @@
   width: fit-content;
 }
 
-/* @keyframes mymove {
-  0%   {top: 0px;}
-  50%  {top: 100px;}
-  100% {top: 0px;}
-} */
-/* 
-@keyframes mymove500 {
-  0%   {top: 0px;}
-  50%  {top: 50px;}
-  100% {top: 0px;}
-} */
-
 @keyframes mymove {
-  0%   {transform:rotateY(0deg)}
-  50% {transform:rotateY(180deg)}
-  100% {transform:rotateY(0deg)}
+  0%   {transform:rotateY(0deg); transform-style: flat;}
+  50% {transform:rotateY(180deg); transform-style: flat}
+  100% {transform:rotateY(0deg); transform-style: flat}
 }
 
 @media only screen and (max-width: 500px) {
-  /* .whatisthis {
-    flex-direction: column;
-    text-align: center;
-  } */
   .left-side {
     margin-left: 0px;
   }
@@ -133,7 +122,7 @@
   }
 
   .sub-title-text {
-        font-size: 28px;
+    font-size: 28px;
     font-weight: 600;
   }
 
@@ -145,6 +134,7 @@
 
   .moving-image {
     animation: mymove 4s infinite ease-in-out;
+    z-index: 1;
   }
 }
 
@@ -165,7 +155,7 @@
   }
 
   .sub-title-text {
-        font-size: 28px;
+    font-size: 28px;
     font-weight: 600;
   }
 
@@ -177,5 +167,6 @@
 
   .moving-image {
     animation: mymove 4s infinite ease-in-out;
+    z-index: 1;
   }
 }

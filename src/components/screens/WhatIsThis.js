@@ -75,8 +75,8 @@ const WhatIsThis = () => {
         <div className="moving-image">
           <img
             src={require("./../../assets/images/hedgie_nobg.png")}
-            style={{ width: "300px", height: "500px" }}
             alt="Hedgie"
+            className="banner-image"
           />
         </div>
       </div>
