@@ -60,7 +60,6 @@ const Roadmap = () => {
           text: "Certik Audit\nMajor CEX Listing",
           status: "NOT STARTED",
         },
-        ,
         {
           id: 3.3,
           text: "E-commerce Usecase\nCollaboration with Investment Partners\nNFT Project Release",
