@@ -7,21 +7,27 @@
   display: flex;
   font-size: calc(10px + 2vmin);
   background-color: rgba(0,0,0,0.1);
-  margin: 0px 10px 0px 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
 }
 
 .banner-logo {
   display: flex;
   z-index: 999;
   cursor: pointer;
+  margin-left: 20px;
 }
 
 .nav-links {
   flex-direction: row;
   display: flex;
-  font-size: 16px;
+  font-size: 15px;
   color: #ffffff;
   font-family: 'Roboto Mono', monospace;
+  margin-right: 30px;
 }
 
 li {
@@ -46,6 +52,10 @@ li:hover {
 }
 
 .nav-button {
+  margin-right: 20px;
+}
+
+.nav-buttons {
   padding: 8px;
   border-radius: 18px;
 }
@@ -65,6 +75,10 @@ li:hover {
 
   .nav-links {
     display: none;
+  }
+
+  .nav-buttons {
+    margin: 0px 30px;
   }
 }
 

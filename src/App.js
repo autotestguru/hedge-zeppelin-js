@@ -9,6 +9,7 @@ import Tokenomics from "./components/screens/Tokenomics";
 import WhatIsThis from "./components/screens/WhatIsThis";
 import { useEffect, useState } from "react";
 import Roadmap from "./components/screens/Roadmap";
+import BuyNow from "./components/screens/BuyNow";
 
 function App() {
   const [showButton, setShowButton] = useState(false);
@@ -25,10 +26,12 @@ function App() {
 
   return (
     <div className="App">
-      <div className="nav-container">
+      {/* <div className="nav-container">
         <Navbar />
-        <WhatIsThis />
-      </div>
+      </div> */}
+      <Navbar />
+      <BuyNow />
+      <WhatIsThis />
       <Tokenomics />
       <OurOffering />
       <Roadmap />

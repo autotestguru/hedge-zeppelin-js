@@ -1,5 +1,5 @@
 import "./navbar.css";
-import BannerLogo from "./../../assets/images/hedgie_nobg.png";
+import BannerLogo from "./../../assets/images/hd_nav_logo.png";
 import Button from "../common/Button";
 import { Spin as Hamburger } from "hamburger-react";
 import { useState } from "react";

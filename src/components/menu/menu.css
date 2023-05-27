@@ -3,11 +3,12 @@
   flex-direction: column;
   animation: fadeIn 0.2s ease-in-out;
   padding-bottom: 8px;
-  position: relative;
+  position: absolute;
   width: 100%;
   background-color: #290443;
   text-align: center;
   z-index: 100;
+  top: 100px;
 }
 
 .show {
