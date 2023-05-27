@@ -17,7 +17,7 @@ const BuyNow = () => {
           <h1>
             HDZ TOKEN, A STRONG CONCEPT WITH A REAL USE CASE AND A HUGE MARKET
           </h1>
-          <h3>The Fastest Growing Crypto Marketing Group In The World</h3>
+          <h3>The most charming meme token is here, and she is cute!</h3>
           <Button outlined>BUY HDZ ON PANCAKESWAP NOW</Button>
           <div className="contract-info">
             <span>Contract Address: {contractAddress}</span>
