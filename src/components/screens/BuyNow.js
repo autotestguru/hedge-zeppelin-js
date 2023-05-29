@@ -4,7 +4,7 @@ import Button from "../common/Button";
 import { useState } from "react";
 
 const BuyNow = () => {
-  let contractAddress = "0xfa134985a4d9D10DBf2d7dCf811055aA25d0807C";
+  let contractAddress = "0x0000000000000000000000000000000000";
   const [copied, setCopied] = useState(false);
   return (
     <div className="buy-now-container">

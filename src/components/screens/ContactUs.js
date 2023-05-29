@@ -4,10 +4,10 @@ import { useState } from "react";
 import { Config } from "../../constants/Config";
 
 const ContactUs = () => {
-  const tgLink = "https://t.me/CMC_COIN_1";
-  const fbLink = "https://www.facebook.com/BuyCMCcoin/";
-  const twLink = "https://twitter.com/CMCCOIN2000";
-  const instaLink = "https://www.instagram.com/cmccoin.io/";
+  const tgLink = "https://t.me/OurTGURL";
+  const fbLink = "https://www.facebook.com/OurFabebookPage/";
+  const twLink = "https://twitter.com/OurTwitterPage";
+  const instaLink = "https://www.instagram.com/OurInstaPage/";
 
   const emailFormat = {
     fullName: "",
