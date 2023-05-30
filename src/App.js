@@ -40,7 +40,7 @@ function App() {
       <ContactUs />
       {showButton && (
         <div className="buy-now-fixed-right">
-          <Button outlined={false}>Buy HDZ</Button>
+          <Button outlined={false}>Buy HZEP</Button>
         </div>
       )}
     </div>

@@ -10,9 +10,10 @@ const OurOffering = () => {
         We are not promising an enormous and unsustainable reward, as most of
         the Crypto Projects in the space, but with a variety of different income
         value streams, from the early adoption of cutting-edge Projects and
-        technologies to the structural taxation of the transactions, we can
-        provide a sustainable reward (in the form of a dividend) for our
-        investors.
+        technologies to the structural taxation of the transactions, we can keep
+        the token price rising through systematic buybacks and burns. These
+        funds will be generated using the taxes and revenue from variety of
+        crypto investments.
       </div>
       <div className="multi-stream">
         <div className="card-investment">
@@ -97,7 +98,7 @@ const OurOffering = () => {
                     <div>
                       Part of fees reinvested into assets to further bolster
                       revenue streams ensuring protction against deflation, thus
-                      guaranteeing payouts.
+                      guaranteeing ever increasing token price.
                     </div>
                   </div>
                   <div className="stream-list-item">
@@ -122,14 +123,11 @@ const OurOffering = () => {
       <div className="dividend">
         <div className="tok-sub-title">
           The total revenue generated from the various income streams, will be
-          distributed to the token holders. Similarly, to a stock dividend, the
-          reward will be a payment to the token holders that consists of
-          additional token rather than cash. The distributions are paid in the
-          respect of the number of tokens and duration of holding those tokens
-          into your wallet. This mechanism will provide an additional incentive
-          for the investors to hold on to their bags for longer period.
+          used to support buyback and burns that in turn raise the token price.
+          This mechanism will provide an additional incentive for the investors
+          to hold on to their bags for longer period.
         </div>
-        <div className="formula-container">
+        {/* <div className="formula-container">
           <Card>
             <div className="formula">
               X (amount of Revenue) = (X amount of Holders) / (Number of Tokens
@@ -142,7 +140,7 @@ const OurOffering = () => {
           the holders will be able to profit from it, without affecting their
           holding time calculation ratio. This will limit the selling pressure
           of the token, while providing a monthly returns to our loyal holders.
-        </div>
+        </div> */}
       </div>
     </div>
   );

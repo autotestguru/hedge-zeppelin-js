@@ -53,7 +53,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="nav-buttons">
-          <Button outlined={true}>Buy HDZ</Button>
+          <Button outlined={true}>Buy HZEP</Button>
         </div>
         <div className="menu-button">
           <Hamburger

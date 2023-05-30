@@ -6,11 +6,11 @@ const Tokenomics = () => {
     <div className="tokenomics-container" id="tokenomics">
       <div className="tok-title">Tokenomics</div>
       <div className="tok-sub-title">
-        Hedge Zeppelin is a meme token at heart! $HDZ is a deflationary token
+        Hedge Zeppelin is a meme token at heart! $HZEP is a deflationary token
         designed to become more scarce over time. On chain holders of Hedge
         Zeppelin will earn more baby doge that is automatically sent to your
         wallet by simply holding Hedge Zeppelin tokens in your wallet. The
-        community receives more HDZ from the fees generated each transaction.
+        community receives more HZEP from the fees generated each transaction.
       </div>
       <div className="highlight-container">
         <Card>
@@ -78,7 +78,7 @@ const Tokenomics = () => {
               style={{ width: "60px", height: "60px" }}
               alt="Checkmark"
             />
-            50,000 HDZ Maximum sell per Hour
+            50,000 HZEP Maximum sell per Hour
           </div>
         </Card>
       </div>
@@ -124,10 +124,10 @@ const Tokenomics = () => {
               Liquidity pool
             </span>
 
-            <span style={{ fontSize: "12px" }}>HDZ / BNB</span>
-            <span style={{ fontSize: "12px" }}>HDZ / BUSD</span>
-            <span style={{ fontSize: "12px" }}>HDZ / POOP</span>
-            <span style={{ fontSize: "12px" }}>HDZ / USDT</span>
+            <span style={{ fontSize: "12px" }}>HZEP / BNB</span>
+            <span style={{ fontSize: "12px" }}>HZEP / BUSD</span>
+            <span style={{ fontSize: "12px" }}>HZEP / POOP</span>
+            <span style={{ fontSize: "12px" }}>HZEP / USDT</span>
           </div>
         </Card>
       </div>
