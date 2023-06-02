@@ -82,14 +82,6 @@ const WhatIsThis = () => {
           management and portfolio management, will be able to offer you a token
           with the perfect safety/profit balance.
         </div>
-        {/* <div className="sub-text" style={{ marginTop: "20px" }}>
-          We are not promising an enormous and unsustainable reward, as most of
-          the Crypto Projects in the space, but with a variety of different
-          income value streams, from the early adoption of cutting-edge Projects
-          and technologies to the structural taxation of the transactions, we
-          can provide a sustainable reward (in the form of a dividend) for our
-          investors.
-        </div> */}
         <div className="market-data-container">
           <div className="market-data-title">*Live Market data</div>
           <div className="mak-data-unit">

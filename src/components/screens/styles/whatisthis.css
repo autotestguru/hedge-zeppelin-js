@@ -110,38 +110,6 @@
   100% {transform:rotateY(0deg); transform-style: flat}
 }
 
-/* @media only screen and (max-width: 500px) {
-  .left-side {
-    margin-left: 0px;
-  }
-
-  .right-side {
-    margin-left: 0px;
-    margin-top: 0px;
-  }
-
-  .title-text {
-    font-size: 40px;
-    font-weight: 900;
-  }
-
-  .sub-title-text {
-    font-size: 28px;
-    font-weight: 600;
-  }
-
-  .sub-text {
-    font-size: 15px;
-    text-align: left;
-    margin-left:15px;
-  }
-
-  .moving-image {
-    animation: mymove 4s infinite ease-in-out;
-    z-index: 1;
-  }
-} */
-
 @media only screen and (max-width: 900px) {
 
   .left-side {
@@ -170,7 +138,6 @@
   }
 
   .moving-image {
-    /* animation: mymove 4s infinite ease-in-out; */
     z-index: 1;
   }
 }

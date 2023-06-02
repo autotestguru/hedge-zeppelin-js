@@ -2,7 +2,6 @@
   display: flex;
   color: #ffffff;
   flex-direction: column;
-  /* background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.3)),url('./../../../assets/images/offering.jpg'); */
   background-image: var(--background-gradient),url('./../../../assets/images/offering.jpg');
   padding: 0px 10px 0px 10px;
   height: fit-content;
@@ -47,13 +46,11 @@
 
 .card-stretch {
   display: flex;
-  /* width: fit-content; */
 }
 
 .card-con {
   position: absolute;
   width: fit-content;
-  /* width: 350px; */
 }
 
 .stream-container {
