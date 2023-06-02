@@ -2,7 +2,6 @@
   display: flex;
   color: #ffffff;
   flex-direction: column;
-  /* background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.3)),url('./../../../assets/images/teambg.jpg'); */
   background-image: var(--background-gradient),url('./../../../assets/images/teambg.jpg');
   padding: 0px 10px 0px 10px;
   padding-bottom: 50px;
@@ -77,11 +76,7 @@
   padding: 0pc 30px;
 }
 
-@media only screen and (max-width: 500px) {
-
-  /* .team {
-    min-height: 400vh;
-  } */
+@media only screen and (max-width: 900px) {
 
   .marketing {
     flex-flow: column nowrap;

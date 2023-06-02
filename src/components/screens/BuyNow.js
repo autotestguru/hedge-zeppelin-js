@@ -14,10 +14,11 @@ const BuyNow = () => {
       <div className="overlay" />
       <div className="buy-now-content-container">
         <div className="buy-now-punch-line">
-          <h1>
+          {/* <h1>
             HZEP TOKEN, A STRONG CONCEPT WITH A REAL USE CASE AND A HUGE MARKET
-          </h1>
-          <h3>The most charming meme token is here, and she is cute!</h3>
+          </h1> */}
+          <h1>The only Sustainably Scalable MEME Token</h1>
+          {/* <h3>The most charming meme token is here, and she is cute!</h3> */}
           <Button outlined>BUY HZEP ON PANCAKESWAP NOW</Button>
           <div className="contract-info">
             <span>Contract Address: {contractAddress}</span>

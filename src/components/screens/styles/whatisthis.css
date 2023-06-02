@@ -31,7 +31,7 @@
 
 .moving-image {
   position: relative;
-  animation: mymove 4s infinite ease-in-out;
+  /* animation: mymove 4s infinite ease-in-out; */
   background-color: transparent;
   z-index: 1;
 }
@@ -170,7 +170,7 @@
   }
 
   .moving-image {
-    animation: mymove 4s infinite ease-in-out;
+    /* animation: mymove 4s infinite ease-in-out; */
     z-index: 1;
   }
 }

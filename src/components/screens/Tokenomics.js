@@ -8,9 +8,9 @@ const Tokenomics = () => {
       <div className="tok-sub-title">
         Hedge Zeppelin is a meme token at heart! $HZEP is a deflationary token
         designed to become more scarce over time. On chain holders of Hedge
-        Zeppelin will earn more baby doge that is automatically sent to your
-        wallet by simply holding Hedge Zeppelin tokens in your wallet. The
-        community receives more HZEP from the fees generated each transaction.
+        Zeppelin will see profit rising over time fueled by systematic and
+        sustainable buyback and token burns; all that for simply holding Hedge
+        Zeppelin tokens in your wallet.
       </div>
       <div className="highlight-container">
         <Card>

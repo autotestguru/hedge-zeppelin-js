@@ -16,6 +16,8 @@
   gap: 80px;
   column-gap: 80px;
   margin-left: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-investment {
@@ -92,64 +94,8 @@
   align-items: center;
 }
 
-/* @media only screen and (max-width: 400px) {
-
-  .card-con {
-    max-width: 310px;
-  }
-} */
-
-/* @media only screen and (max-width: 500px) {
-
+@media only screen and (max-width: 900px) {
   .multi-stream {
-    flex-direction: column;
-    gap: 140px;
+    justify-content: flex-start;
   }
-
-  .card-investment {
-    margin-left: 0px;
-  }
-
-  .form-container {
-    margin: 0px 20px;
-  }
-
-  .formula { 
-    padding: 10px;
-  }
-} */
-
-/* @media only screen and (max-width: 900px) {
-
-  .form-container {
-    margin: 0px 20px;
-  }
-
-  .formula { 
-    padding: 10px;
-  }
-
-  .multi-stream {
-    gap: 80px;
-  }
-} */
-
-/* @media only screen and (max-width: 1200px) {
-
-  .card-investment {
-    margin-left: 0px;
-  }
-
-  .form-container {
-    margin: 0px 20px;
-  }
-
-  .formula { 
-    padding: 10px;
-  }
-
-  .multi-stream {
-    gap: 80px;
-  }
-} */
-
+}

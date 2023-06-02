@@ -65,13 +65,6 @@ const WhatIsThis = () => {
   return (
     <div className="whatisthis" id="whatisthis">
       <div className="left-side">
-        {/* <div className="moving-image">
-          <img
-            src={require("./../../assets/images/airship.png")}
-            style={{ width: "300px" }}
-            alt="Airship"
-          />
-        </div> */}
         <div className="moving-image">
           <img
             src={require("./../../assets/images/hedgie_nobg.png")}
@@ -84,11 +77,10 @@ const WhatIsThis = () => {
         <h1 className="title-text">HEDGE Zeppelin</h1>
         <h2 className="sub-title-text">What is this?</h2>
         <div className="sub-text">
-          The Hedge Zeppelin presents itself as the best solution for people who
-          are ill-informed or just wary of crypto but still want to invest part
-          of their wealth. Our team, which has a perfect knowledge of risk
-          management and traditional markets, will be able to offer you
-          solutions with the perfect balance.
+          Hedge Zeppelin is here to provide a sustainable interaction with the
+          cryptocurrency world. Our team, which has a perfect knowledge of risk
+          management and portfolio management, will be able to offer you a token
+          with the perfect safety/profit balance.
         </div>
         {/* <div className="sub-text" style={{ marginTop: "20px" }}>
           We are not promising an enormous and unsustainable reward, as most of

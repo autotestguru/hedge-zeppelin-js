@@ -84,7 +84,7 @@ const OurOffering = () => {
             </div>
           </div>
         </div>
-        <div className="card-investment">
+        {/* <div className="card-investment">
           <div className="card-stretch">
             <div className="card-con">
               <Card>
@@ -118,7 +118,7 @@ const OurOffering = () => {
               Trading
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="dividend">
         <div className="tok-sub-title">
