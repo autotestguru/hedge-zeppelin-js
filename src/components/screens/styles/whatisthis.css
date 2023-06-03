@@ -1,10 +1,10 @@
 .whatisthis {
-  margin-top: 0px;
+  margin-top: -1px;
   display: flex;
   justify-content: space-between;
   /* position: relative; */
   padding-bottom: 80px;
-  background-image: url('./../../../assets/images/Background.png');
+  background-image: var(--background-gradient),url('./../../../assets/images/hedgie-bg.png');
   width: 100%;
   height: fit-content;
 }
