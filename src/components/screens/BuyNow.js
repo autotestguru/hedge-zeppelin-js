@@ -6,10 +6,14 @@ import CurrencyOptions from "../common/CurrencyOptions/CurrencyOptions";
 import { Config } from "../../constants/Config";
 
 const BuyNow = () => {
-  const [showCurOpts, setShowCurOpts] = useState(false);
-
   let contractAddress = Config.hzepContractAddress;
+  const [showCurOpts, setShowCurOpts] = useState(false);
   const [copied, setCopied] = useState(false);
+
+  const toggleBuyMenu = () => {
+    setShowCurOpts(!showCurOpts);
+  };
+
   return (
     <div className="buy-now-container">
       <video id="video-container" loop autoPlay muted>
@@ -20,12 +24,13 @@ const BuyNow = () => {
         <div className="buy-now-punch-line">
           <h1>The only Sustainably Scalable MEME Token</h1>
           <div className="buy-action-container">
-            <Button outlined onClick={() => setShowCurOpts(!showCurOpts)}>
+            <Button outlined onClick={toggleBuyMenu}>
               BUY HZEP ON PANCAKESWAP NOW
             </Button>
             <CurrencyOptions
               showCurOpts={showCurOpts}
               buyToken="0xfa134985a4d9D10DBf2d7dCf811055aA25d0807C"
+              toggleMenu={toggleBuyMenu}
             />
           </div>
           <div className="contract-info">

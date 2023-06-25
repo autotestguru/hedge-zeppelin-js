@@ -25,6 +25,10 @@ function App() {
     };
   }, []);
 
+  const toggleBuyMenu = () => {
+    setShowCurOpts(!showCurOpts);
+  };
+
   return (
     <div className="App">
       {/* <div className="nav-container">
@@ -46,13 +50,11 @@ function App() {
               showCurOpts={showCurOpts}
               buyToken="0xfa134985a4d9D10DBf2d7dCf811055aA25d0807C"
               alignment="bottomToTop"
+              toggleMenu={toggleBuyMenu}
             />
           </div>
           <div className="buy-now-fixed-right">
-            <Button
-              outlined={false}
-              onClick={() => setShowCurOpts(!showCurOpts)}
-            >
+            <Button outlined={false} onClick={toggleBuyMenu}>
               Buy HZEP
             </Button>
           </div>

@@ -10,6 +10,10 @@ const Navbar = () => {
   const [expanded, setExpanded] = useState(false);
   const [showCurOpts, setShowCurOpts] = useState(false);
 
+  const toggleBuyMenu = () => {
+    setShowCurOpts(!showCurOpts);
+  };
+
   const onMenuPress = () => {
     setExpanded(!expanded);
   };
@@ -55,12 +59,13 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="nav-buttons">
-          <Button outlined={true} onClick={() => setShowCurOpts(!showCurOpts)}>
+          <Button outlined={true} onClick={toggleBuyMenu}>
             Buy HZEP
           </Button>
           <CurrencyOptions
             showCurOpts={showCurOpts}
             buyToken="0xfa134985a4d9D10DBf2d7dCf811055aA25d0807C"
+            toggleMenu={toggleBuyMenu}
           />
         </div>
         <div className="menu-button">
