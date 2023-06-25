@@ -1,3 +1,4 @@
+import { Config } from "../../../constants/Config";
 import "./currencyOptions.css";
 
 const CurrencyOptions = ({ showCurOpts, buyToken, alignment }) => {
@@ -8,7 +9,7 @@ const CurrencyOptions = ({ showCurOpts, buyToken, alignment }) => {
       <h3
         onClick={() =>
           window.open(
-            `https://pancakeswap.finance/swap?inputCurrency=BNB&outputCurrency=${buyToken}`,
+            `https://pancakeswap.finance/swap?inputCurrency=BNB&outputCurrency=${Config.hzepContractAddress}`,
             "_blank"
           )
         }
@@ -18,7 +19,7 @@ const CurrencyOptions = ({ showCurOpts, buyToken, alignment }) => {
       <h3
         onClick={() =>
           window.open(
-            `https://pancakeswap.finance/swap?inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&outputCurrency=${buyToken}`,
+            `https://pancakeswap.finance/swap?inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&outputCurrency=${Config.hzepContractAddress}`,
             "_blank"
           )
         }
@@ -28,7 +29,7 @@ const CurrencyOptions = ({ showCurOpts, buyToken, alignment }) => {
       <h3
         onClick={() =>
           window.open(
-            `https://pancakeswap.finance/swap?inputCurrency=0x55d398326f99059fF775485246999027B3197955&outputCurrency=${buyToken}`,
+            `https://pancakeswap.finance/swap?inputCurrency=0x55d398326f99059fF775485246999027B3197955&outputCurrency=${Config.hzepContractAddress}`,
             "_blank"
           )
         }

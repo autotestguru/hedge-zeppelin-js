@@ -3,11 +3,12 @@ import bgVideo from "./../../assets/videos/digital-pattern.mp4";
 import Button from "../common/Button";
 import { useState } from "react";
 import CurrencyOptions from "../common/CurrencyOptions/CurrencyOptions";
+import { Config } from "../../constants/Config";
 
 const BuyNow = () => {
   const [showCurOpts, setShowCurOpts] = useState(false);
 
-  let contractAddress = "0x0000000000000000000000000000000000";
+  let contractAddress = Config.hzepContractAddress;
   const [copied, setCopied] = useState(false);
   return (
     <div className="buy-now-container">
