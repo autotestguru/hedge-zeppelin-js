@@ -10,7 +10,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 3;
   width: 100%;
 }
 
@@ -57,7 +57,9 @@ li:hover {
 
 .nav-buttons {
   padding: 8px;
+  padding-bottom: 0px;
   border-radius: 18px;
+  position: relative;
 }
 
 .menu-button {

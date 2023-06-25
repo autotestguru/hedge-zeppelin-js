@@ -93,5 +93,6 @@ button:has(:last-child:active)::before {
 
 
 .outlined {
-background-image: linear-gradient(to right, transparent, transparent);;
+background-image: linear-gradient(to right, transparent, transparent);
+width: fit-content;
 }

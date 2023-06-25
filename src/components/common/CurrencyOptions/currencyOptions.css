@@ -1,0 +1,39 @@
+.currency-opt-container {
+  flex-direction: column;
+  height: 0px;
+  overflow: hidden;
+  position: absolute;
+  background-color: #600259;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  transition: all 200ms ease-in;
+  align-items: flex-start;
+  border-radius: 12px;
+  padding: 0;
+  cursor: pointer;
+  z-index: 3;
+  right: 0;
+  top: 100%;
+}
+
+.dropdown {
+  height: 100px;
+}
+
+.dropdown-rev {
+  height: 100px;
+}
+
+.currency-opt-container h3 {
+  margin: 2px;
+  font-size: 1em;
+  font-family: "Poppins", Sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 1px 5px;
+}
+
+.currency-opt-container h3:hover {
+  background-color: #a00495;
+}

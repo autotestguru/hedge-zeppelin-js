@@ -4,9 +4,11 @@ import Button from "../common/Button";
 import { Spin as Hamburger } from "hamburger-react";
 import { useState } from "react";
 import MenuList from "../menu/MenuList";
+import CurrencyOptions from "../common/CurrencyOptions/CurrencyOptions";
 
 const Navbar = () => {
   const [expanded, setExpanded] = useState(false);
+  const [showCurOpts, setShowCurOpts] = useState(false);
 
   const onMenuPress = () => {
     setExpanded(!expanded);
@@ -53,7 +55,13 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="nav-buttons">
-          <Button outlined={true}>Buy HZEP</Button>
+          <Button outlined={true} onClick={() => setShowCurOpts(!showCurOpts)}>
+            Buy HZEP
+          </Button>
+          <CurrencyOptions
+            showCurOpts={showCurOpts}
+            buyToken="0xfa134985a4d9D10DBf2d7dCf811055aA25d0807C"
+          />
         </div>
         <div className="menu-button">
           <Hamburger

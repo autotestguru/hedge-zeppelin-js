@@ -10,10 +10,11 @@ import WhatIsThis from "./components/screens/WhatIsThis";
 import { useEffect, useState } from "react";
 import Roadmap from "./components/screens/Roadmap";
 import BuyNow from "./components/screens/BuyNow";
+import CurrencyOptions from "./components/common/CurrencyOptions/CurrencyOptions";
 
 function App() {
   const [showButton, setShowButton] = useState(false);
-
+  const [showCurOpts, setShowCurOpts] = useState(false);
   useEffect(() => {
     const visibilityOnScrollHandler = () => {
       window.pageYOffset > 100 ? setShowButton(true) : setShowButton(false);
@@ -39,9 +40,23 @@ function App() {
       <Next />
       <ContactUs />
       {showButton && (
-        <div className="buy-now-fixed-right">
-          <Button outlined={false}>Buy HZEP</Button>
-        </div>
+        <>
+          <div className="currency-opt-fixed-right">
+            <CurrencyOptions
+              showCurOpts={showCurOpts}
+              buyToken="0xfa134985a4d9D10DBf2d7dCf811055aA25d0807C"
+              alignment="bottomToTop"
+            />
+          </div>
+          <div className="buy-now-fixed-right">
+            <Button
+              outlined={false}
+              onClick={() => setShowCurOpts(!showCurOpts)}
+            >
+              Buy HZEP
+            </Button>
+          </div>
+        </>
       )}
     </div>
   );

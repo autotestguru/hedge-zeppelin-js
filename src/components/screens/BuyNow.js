@@ -2,8 +2,11 @@ import "./styles/buy-now.css";
 import bgVideo from "./../../assets/videos/digital-pattern.mp4";
 import Button from "../common/Button";
 import { useState } from "react";
+import CurrencyOptions from "../common/CurrencyOptions/CurrencyOptions";
 
 const BuyNow = () => {
+  const [showCurOpts, setShowCurOpts] = useState(false);
+
   let contractAddress = "0x0000000000000000000000000000000000";
   const [copied, setCopied] = useState(false);
   return (
@@ -14,12 +17,16 @@ const BuyNow = () => {
       <div className="overlay" />
       <div className="buy-now-content-container">
         <div className="buy-now-punch-line">
-          {/* <h1>
-            HZEP TOKEN, A STRONG CONCEPT WITH A REAL USE CASE AND A HUGE MARKET
-          </h1> */}
           <h1>The only Sustainably Scalable MEME Token</h1>
-          {/* <h3>The most charming meme token is here, and she is cute!</h3> */}
-          <Button outlined>BUY HZEP ON PANCAKESWAP NOW</Button>
+          <div className="buy-action-container">
+            <Button outlined onClick={() => setShowCurOpts(!showCurOpts)}>
+              BUY HZEP ON PANCAKESWAP NOW
+            </Button>
+            <CurrencyOptions
+              showCurOpts={showCurOpts}
+              buyToken="0xfa134985a4d9D10DBf2d7dCf811055aA25d0807C"
+            />
+          </div>
           <div className="contract-info">
             <span>Contract Address: {contractAddress}</span>
             <br />
@@ -33,14 +40,18 @@ const BuyNow = () => {
                 }
                 setCopied(true);
               }}
-              // onClick={() => {
-              //   navigator.clipboard.writeText(contractAddress);
-              //   setCopied(true);
-              // }}
             >
               {copied ? "Copied to Clipboard" : "Copy Address"}
             </span>
           </div>
+        </div>
+        <div className="huge-marketing">
+          <h1>Partnership with biggest marketing platform</h1>
+          <img
+            src={require("./../../assets/images/cmccoinbig-redact.png")}
+            className="marketing-img"
+            alt="Marketing partner"
+          />
         </div>
       </div>
     </div>

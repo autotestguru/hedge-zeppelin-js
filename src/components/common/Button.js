@@ -1,14 +1,14 @@
 import "./components.css";
 
-const Button = ({ children, outlined = false }) => {
+const Button = ({ children, outlined = false, onClick }) => {
   return (
-    <div>
-      <button className={[outlined ? "outlined" : undefined]}>
-        <span></span>
-        {children}
-        <span></span>
-      </button>
-    </div>
+    // <div>
+    <button className={[outlined ? "outlined" : undefined]} onClick={onClick}>
+      <span></span>
+      {children}
+      <span></span>
+    </button>
+    // </div>
   );
 };
 
