@@ -10,7 +10,7 @@ import WhatIsThis from "./components/screens/WhatIsThis";
 import { useEffect, useState } from "react";
 import Roadmap from "./components/screens/Roadmap";
 import BuyNow from "./components/screens/BuyNow";
-import CurrencyOptions from "./components/common/CurrencyOptions/CurrencyOptions";
+import CurrencyOptions from "./components/common/currencyOptions/CurrencyOptions";
 
 function App() {
   const [showButton, setShowButton] = useState(false);
@@ -31,9 +31,6 @@ function App() {
 
   return (
     <div className="App">
-      {/* <div className="nav-container">
-        <Navbar />
-      </div> */}
       <Navbar />
       <BuyNow />
       <WhatIsThis />
@@ -48,7 +45,6 @@ function App() {
           <div className="currency-opt-fixed-right">
             <CurrencyOptions
               showCurOpts={showCurOpts}
-              buyToken="0xfa134985a4d9D10DBf2d7dCf811055aA25d0807C"
               alignment="bottomToTop"
               toggleMenu={toggleBuyMenu}
             />

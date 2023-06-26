@@ -5,7 +5,7 @@
   left: 0;
   height:max-content;
   background-color: rgba(0, 0, 0, 1);
-  height: 100vh;
+  height: fit-content;
   width: 100vw;
   }
 
@@ -30,29 +30,37 @@
 
 .buy-now-content-container {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   /* align-items: center; */
   position: absolute;
   z-index: 2;
-  top: 10%;
+  top: 15%;
   width: 100%;
-  text-align: center;
+  /* text-align: center; */
   flex-flow: row wrap;
+}
+
+.buy-left-section {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  flex-grow: 3;
+  align-items: center;
+  justify-content: center;
 }
 
 .buy-now-punch-line {
   display: flex;
   flex-direction: column;
-  margin: 10px 140px;
+  /* margin: 10px 40px; */
   font-weight: inherit;
-  font-size: 1.5em;
+  font-size: 1em;
   font-family: "Poppins", Sans-serif;
   align-items: center;
 }
 
 h1 {
-  font-weight: bolder;
-  /* margin: 10px 10px; */
+  font-weight: bold;
 }
 
 h3 {
@@ -69,6 +77,10 @@ h3 {
   height: 120px;
 }
 
+.huge-marketing-title { 
+  font-size: 1em;
+}
+
 .buy-action-container {
   position: relative;
   display: flex;
@@ -78,11 +90,24 @@ h3 {
   width: fit-content;
 }
 
+.flooz-container {
+  margin: 10px;
+  flex-grow: 1;
+}
+
 @media only screen and (max-width: 900px) {
+
+  .buy-now-content-container {
+    justify-content: center;
+  }
+
   .buy-now-punch-line {
     margin: 60px 10px;
-    margin-top: 100px;
+    margin-top: 30px;
     font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .contract-info {
@@ -90,11 +115,18 @@ h3 {
   }
 
   .buy-now-container {
-    height: 800px;
+    height: 1400px;
   }
 
   .marketing-img {
     width: 300px;
     height: 100px;
+  }
+
+  .flooz-container {
+    margin: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }

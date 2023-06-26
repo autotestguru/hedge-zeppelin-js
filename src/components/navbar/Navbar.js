@@ -4,7 +4,7 @@ import Button from "../common/Button";
 import { Spin as Hamburger } from "hamburger-react";
 import { useState } from "react";
 import MenuList from "../menu/MenuList";
-import CurrencyOptions from "../common/CurrencyOptions/CurrencyOptions";
+import CurrencyOptions from "../common/currencyOptions/CurrencyOptions";
 
 const Navbar = () => {
   const [expanded, setExpanded] = useState(false);
@@ -64,7 +64,6 @@ const Navbar = () => {
           </Button>
           <CurrencyOptions
             showCurOpts={showCurOpts}
-            buyToken="0xfa134985a4d9D10DBf2d7dCf811055aA25d0807C"
             toggleMenu={toggleBuyMenu}
           />
         </div>
