@@ -14,7 +14,7 @@ on:
         type: string
 
 env:
-  DEPLOYMENT_FOLDER: ./build
+  DEPLOYMENT_FOLDER: public
 
 jobs:
 # Please do not rename this job
@@ -30,7 +30,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: v18.x
+          node-version: v16.x
 
       - name: Build Node assets
         env:
@@ -46,7 +46,7 @@ jobs:
         with:
           api-key: ${{ secrets.IONOS_API_KEY }}
           service-host: api-us.ionos.space
-          project-id: 05202705-93fb-4a01-9754-eafc822af912
+          project-id: b08b7104-12b3-487e-8f68-6eff6e5a6825
           branch-id: ${{ inputs.branch-id }}
           version: ${{ github.sha }}
           folder: ${{ env.DEPLOYMENT_FOLDER }}
